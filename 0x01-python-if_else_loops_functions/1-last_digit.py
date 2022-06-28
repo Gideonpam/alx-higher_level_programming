@@ -13,16 +13,16 @@ last_digit = int(last_digit_str)
 if last_digit > 5:
     if number > 0:
         print(f"Last digit of {number} is {last_digit_str} "
-             "and is greater than 5")
+            "and is greater than 5")
     else:
         print(f"Last digit of {number} is -{last_digit_str} "
-        "and is less than 6 and not 0")
+            "and is less than 6 and not 0")
 elif last_digit == 0:
     print(f"Last digit of {number} is {last_digit_str} and is 0")
 elif last_digit < 6 and last_digit != 0:
     if number > 0:
         print(f"Last digit of {number} is {last_digit_str} "
-             "and is less than 6 and not 0")
+            "and is less than 6 and not 0")
     else:
         print(f"Last digit of {number} is -{last_digit_str} "
-        "and is less than 6 and not 0")
+            "and is less than 6 and not 0")
